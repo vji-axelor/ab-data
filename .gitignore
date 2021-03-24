@@ -1,0 +1,12 @@
+# Gradle
+build
+.gradle
+
+# Eclispe
+bin
+.project
+.classpath
+.settings
+.metadata
+
+
