@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<object-views xmlns="http://axelor.com/xml/ns/object-views"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://axelor.com/xml/ns/object-views
+  http://axelor.com/xml/ns/object-views/object-views_5.0.xsd">
+
+
+	<menuitem title="AB Data" name="ab-data"/>
+
+  	<menuitem title="Contact" name="contact-menu" parent="ab-data" action="contact-action"></menuitem>
+  			<action-view title="Ab Contact" name="contact-action" model="com.ab.data.contact.db.Contact">
+  				<view type="grid" name="contact-grid"/>
+  				<view type="form" name="contact-form"/>
+  			</action-view>
+  		
+ </object-views>
+ 
+ 
+ 

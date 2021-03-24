@@ -1,0 +1,3 @@
+rootProject.name = 'ab-data'
+
+include "modules:ab-contact"
